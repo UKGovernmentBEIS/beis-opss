@@ -1,0 +1,5 @@
+@import "opss/opss-msa";
+
+.responsible-person-notification-name {
+  @include word-wrap;
+}

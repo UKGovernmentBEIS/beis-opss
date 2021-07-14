@@ -5,7 +5,9 @@
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-l"><%= @notification.product_name %></h1>
+    <h1 class="govuk-heading-l responsible-person-notification-name">
+      <%= @notification.product_name %>
+    </h1>
 
     <%= render "notifications/product_overview", notification: @notification %>
   </div>
